@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@import "/node_modules/bootstrap/scss/bootstrap-grid.scss";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.full-width {
+  width: 100%;
+}
+
+.add-btn {
+  margin: 10px 0px 0px 0px;
+}
+
+.prod-btn:hover {
+  background-color: #3f51b5 !important;
+  color: white !important;
+}
+
+.edit-btn:hover {
+  background-color: #F39C12 !important;
+  color: white !important;
+}
+
+.delete-btn:hover {
+  background-color: #C0392B !important;
+  color: white !important;
+}
+
+mat-card-title {
+  margin: 0px 0px 0px 10px !important;
+}
